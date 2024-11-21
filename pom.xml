@@ -15,11 +15,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.9.9</version>
                 <configuration>
                     <webResources>
                         <resource>
-                            <directory>src/main/resources/static</directory>
+                            <directory>src/main/</directory>
                             <targetPath>/</targetPath>
                         </resource>
                     </webResources>
